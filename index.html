@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/comparar.svg
+    " type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.5/dist/chart.umd.min.js"></script>
+    <title>COMPARA | PREÇOS</title>
+</head>
+<body>
+    <main class="container">
+        <div class="header">
+            <img src="./src/img/comparar.svg" alt="">
+            <h1>ComPreços</h1>
+        </div>
+
+        <form class="search-form">
+            <input placeholder="Digite o nome do Produto" class="product-input">
+            <button type="submit">Buscar</button>
+        </form>
+        <div class="product-list"></div>
+        <canvas class="price-chart"></canvas>
+
+    </main>
+    <script src="./src/js/scripts.js"></script>
+</body>
+</html>
